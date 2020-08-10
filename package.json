@@ -4,8 +4,8 @@
   "description": "Binary to Decimal and Decimal to Binary Conversions.",
   "main": "binary.js",
   "scripts": {
-    "start:dev": "nodemon",
-    "start:prod": "npm run build && node build/binary.js",
+    "dev": "nodemon",
+    "prod": "npm run build && node build/binary.js",
     "build": "rimraf ./build && tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
