@@ -1,0 +1,30 @@
+{
+  "name": "binary-convertions-node-typescript-terminal",
+  "version": "1.0.0",
+  "description": "Binary to Decimal and Decimal to Binary Conversions.",
+  "main": "binary.js",
+  "scripts": {
+    "start:dev": "nodemon",
+    "start:prod": "npm run build && node build/binary.js",
+    "build": "rimraf ./build && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junerockwell/binary-convertions-node-typescript-terminal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junerockwell/binary-convertions-node-typescript-terminal/issues"
+  },
+  "homepage": "https://github.com/junerockwell/binary-convertions-node-typescript-terminal#readme",
+  "devDependencies": {
+    "@types/node": "^14.0.27",
+    "nodemon": "^2.0.4",
+    "rimraf": "^3.0.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
