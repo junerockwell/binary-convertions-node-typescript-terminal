@@ -12,7 +12,7 @@ export function binaryToDecimal(binary: string): number | string {
     position *= 2;
   });
 
-  return `Result: ${result}`;
+  return `Decimal Result: ${result}`;
 }
 
 export function decimalToBinary(decimal: string): string {
@@ -26,5 +26,5 @@ export function decimalToBinary(decimal: string): string {
     remainders.push(modulus);
   }
 
-  return `Result: ${remainders.reverse().join("")}`;
+  return `Binary Result: ${remainders.reverse().join("")}`;
 }
