@@ -4,7 +4,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-import { decimalToBinary, binaryToDecimal } from "./conversions";
+import { decimalToBinary, binaryToDecimal } from "../conversions";
 
 export default function initialPrompt() {
   rl.question(
