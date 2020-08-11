@@ -2,8 +2,23 @@
 
 Binary to Decimal and Decimal to Binary Conversions.
 
+The prompts should be straightfoward enough for usage instructions / nagivations.
+
 ## Get Started
 
-Install Dependencies
-`npm -g TypeScript`
+### Install TypeScript globally
+
+`npm install -g typescript`
+
+### Install all Depedencies
+
 `npm install`
+
+## Start the App
+
+`npm run prod`
+
+## Stop the App
+
+Stop the app in regular NodeJS fashion
+`Ctrl + C`
