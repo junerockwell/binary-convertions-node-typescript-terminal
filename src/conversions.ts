@@ -1,4 +1,4 @@
-export function binaryToDecimal(binary: string): number | string {
+export function binaryToDecimal(binary: string): string {
   let position: number = 1;
   let result: number = 0;
 
