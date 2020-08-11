@@ -22,3 +22,8 @@ The prompts should be straightfoward enough for usage instructions / nagivations
 
 Stop the app in regular NodeJS fashion
 `Ctrl + C`
+
+## References:
+
+How to setup Jest
+https://amenallah.com/node-js-typescript-jest-express-starter/
