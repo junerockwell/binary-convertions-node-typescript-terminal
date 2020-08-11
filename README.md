@@ -25,5 +25,5 @@ Stop the app in regular NodeJS fashion
 
 ## References:
 
-How to setup Jest
-https://amenallah.com/node-js-typescript-jest-express-starter/
+- Node's Readline Module: https://nodejs.org/api/readline.html
+- How to setup Jest: https://amenallah.com/node-js-typescript-jest-express-starter/
