@@ -20,6 +20,10 @@ The prompts should be straightfoward enough for usage instructions / nagivations
 
 ## Stop the App
 
+## Start Unit Test
+
+`npm test`
+
 Stop the app in regular NodeJS fashion
 `Ctrl + C`
 
