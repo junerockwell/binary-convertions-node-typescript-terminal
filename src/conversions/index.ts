@@ -18,7 +18,7 @@ export function binaryToDecimal(binary: string): string {
 export function decimalToBinary(decimal: string): string {
   let remainders: number[] = [];
   let quotient: number = parseFloat(decimal);
-  let modulus: number = parseFloat(decimal);
+  let modulus: number | null = null;
 
   while (quotient > 0) {
     modulus = quotient % 2;

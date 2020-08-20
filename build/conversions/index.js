@@ -17,7 +17,7 @@ exports.binaryToDecimal = binaryToDecimal;
 function decimalToBinary(decimal) {
     var remainders = [];
     var quotient = parseFloat(decimal);
-    var modulus = parseFloat(decimal);
+    var modulus = null;
     while (quotient > 0) {
         modulus = quotient % 2;
         quotient = Math.floor(quotient / 2);

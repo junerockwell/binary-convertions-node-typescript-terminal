@@ -8,7 +8,7 @@ var rl = readline.createInterface({
 });
 var conversions_1 = require("../conversions");
 function initialPrompt() {
-    rl.question("* Binary to Decimal [type d]\n* Decimal to Binary [type b]\n", function (option) {
+    rl.question("* Binary to Decimal [press d]\n* Decimal to Binary [press b]\n", function (option) {
         if (option === "b") {
             decimalPrompt();
         }
@@ -22,7 +22,7 @@ function initialPrompt() {
 }
 exports.default = initialPrompt;
 function decimalPrompt() {
-    rl.question("Enter Decimal [r to redo]: ", function (decimal) {
+    rl.question("Enter Decimal [r to restart]: ", function (decimal) {
         if (!decimal) {
             console.log("You didn't enter a decimal!");
             decimalPrompt();
@@ -43,7 +43,7 @@ function decimalPrompt() {
 }
 exports.decimalPrompt = decimalPrompt;
 function binaryPrompt() {
-    rl.question("Enter Binary [r to redo]: ", function (binary) {
+    rl.question("Enter Binary [r to restart]: ", function (binary) {
         if (!binary) {
             console.log("You didn't enter a binary!");
             binaryPrompt();

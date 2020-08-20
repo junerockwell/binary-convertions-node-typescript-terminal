@@ -8,7 +8,7 @@ import { decimalToBinary, binaryToDecimal } from "../conversions";
 
 export default function initialPrompt() {
   rl.question(
-    "* Binary to Decimal [type d]\n* Decimal to Binary [type b]\n",
+    "* Binary to Decimal [press d]\n* Decimal to Binary [press b]\n",
     (option: "b" | "d") => {
       if (option === "b") {
         decimalPrompt();
