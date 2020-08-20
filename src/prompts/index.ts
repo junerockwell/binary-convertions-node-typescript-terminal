@@ -22,7 +22,7 @@ export default function initialPrompt() {
 }
 
 export function decimalPrompt() {
-  rl.question("Enter Decimal [r to redo]: ", (decimal: string) => {
+  rl.question("Enter Decimal [r to restart]: ", (decimal: string) => {
     if (!decimal) {
       console.log("You didn't enter a decimal!");
       decimalPrompt();
@@ -46,7 +46,7 @@ export function decimalPrompt() {
 }
 
 export function binaryPrompt() {
-  rl.question("Enter Binary [r to redo]: ", (binary: string) => {
+  rl.question("Enter Binary [r to restart]: ", (binary: string) => {
     if (!binary) {
       console.log("You didn't enter a binary!");
       binaryPrompt();
