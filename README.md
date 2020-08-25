@@ -6,7 +6,7 @@ I made this little app to be my go-to for Binary conversions. Yeah sure there ar
 
 After reviewing and re-understanding how to convert binary to decimal and decimal to binary, I decided to code the coversions so I'll never have to do it by hand EVER AGAIN, mwahahahah! Then I figured, why not make a NodeJS prompt using TypeScript and add Jest Unit Testing!
 
-Also: The prompts should be straightfoward enough for usage instructions / nagivations.
+Also: The prompts should be straightfoward enough for usage instructions / nagivations. If not, let me knooooow!
 
 ## Get Started
 ### Install NodeJS and NPM
