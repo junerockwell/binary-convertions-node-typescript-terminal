@@ -14,7 +14,7 @@ The link should give you an executable file that contains NodeJS and NPM.
 https://nodejs.org/en/
 
 ### Download the app
-Download the files to your local machine.
+Download the files to your local machine, or `git clone` it!
 
 ### Install TypeScript globally
 
