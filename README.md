@@ -43,3 +43,5 @@ Stop the app in regular NodeJS fashion
 - Node's Readline Module: https://nodejs.org/api/readline.html
 - How to setup Jest: https://amenallah.com/node-js-typescript-jest-express-starter/
 - Binary Coversions: https://www.build-electronic-circuits.com/binary-number-system/
+
+testing update
